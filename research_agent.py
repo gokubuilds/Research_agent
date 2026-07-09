@@ -287,12 +287,3 @@ builder.add_edge("summarizer", END)
 
 graph = builder.compile()
 
-if __name__ == "__main__":
-    result5 = graph.invoke({
-        "topic":"bike",
-        "fetch_attempts": 0,
-        "max_fetch_attempts": 3
-    })
-    print("TEST 5 - Whitespace-only topic:")
-
-    print(result5["topic"])

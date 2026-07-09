@@ -207,7 +207,16 @@ Invalid-topic tests:
 - Conflict resolution between disagreeing sources is not implemented yet.
 - LLM output can sometimes be malformed; the project includes JSON parsing fallback logic, but stricter schema validation would improve reliability.
 - Query refinement is currently based on vague or missing-data cases, not a full relevance-quality scoring system.
-- Sample output reports should be saved separately if required for final submission.
+
+## Sample Output Reports
+
+Five generated sample reports are available in the `sample_outputs/` folder:
+
+- `01-solid-state-batteries-advantages-and-challenges.md`
+- `02-how-quantum-computing-affects-modern-encryption.md`
+- `03-benefits-and-risks-of-ai-in-healthcare.md`
+- `04-renewable-energy-storage-technologies.md`
+- `05-electric-vehicle-charging-infrastructure-challenges.md`
 
 ## Deliverables Checklist
 
@@ -218,5 +227,4 @@ Invalid-topic tests:
 | README with setup and architecture | Complete |
 | Graph architecture diagram | Complete |
 | Demo walkthrough | Ready |
-| Three saved sample output reports | To be added if required for submission |
-
+| Three saved sample output reports | Complete: 5 reports saved in `sample_outputs/` |
