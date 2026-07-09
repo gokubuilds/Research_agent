@@ -1,6 +1,6 @@
 langchain-core
 langgraph
-tavily
-dotenv
+tavily-python
+python-dotenv
 langchain-groq
 streamlit
